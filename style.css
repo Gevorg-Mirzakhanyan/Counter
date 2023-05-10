@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.canvas {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.remove {
+    width: 35px;
+    background-color: rgb(172, 65, 65);
+}
+
+.remove:hover {
+    background-color: red;
+}
+
+.reset {
+    width:60px;
+    background-color: rgb(139, 138, 138);
+}
+
+.reset:hover {
+    background-color: grey;
+}
+
+.sum {
+    width: 35px;
+    background-color: rgb(97, 148, 97);
+    font-weight: bold;
+}
+
+.sum:hover {
+    background-color: green;
+}
